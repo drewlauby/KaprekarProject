@@ -24,6 +24,7 @@
  */
 int isKaprekar(int argc, **char argv) {
 
+  int n = atoi(argv[1]);
 
   if(n < 1) {
     return false;
