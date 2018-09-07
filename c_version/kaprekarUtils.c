@@ -51,8 +51,11 @@ int isKaprekar(int argc, **char argv) {
        first + second == n) {
       return 1;
     }
+    else{
+
+      return 0;
+    }
   }
 }
-  return 0;
 
 }
