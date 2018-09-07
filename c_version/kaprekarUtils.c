@@ -29,10 +29,10 @@ int isKaprekar(int argc, **char argv) {
   if(n < 1) {
     return false;
   }
-  else{
+
 
   int i;
-  long square = n * (long) n;
+  long square = (long) n * (long) n;
   int numDigits = (int) log10(n) + 1;
   long modulus = 0;
   long first, second;
@@ -56,6 +56,6 @@ int isKaprekar(int argc, **char argv) {
       return 0;
     }
   }
-}
+
 
 }
